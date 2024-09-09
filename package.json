@@ -29,13 +29,13 @@
     "test": "jest",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3030",
+  "proxy": "https://kahoot-flame.vercel.app",
   "main": "./server/index.js",
   "devDependencies": {
     "jest": "^23.4.2"
   },
   "jest": {
     "verbose": true,
-    "testURL": "http://localhost/"
+    "testURL": "https://kahoot-flame.vercel.app/"
   }
 }
